@@ -22,30 +22,43 @@ packages:
   - aws_ec2_api
 ## rest-json protocol APIs
   - aws_accessanalyzer_api
+  - aws_amp_api
   - aws_amplify_api
+  - aws_amplifybackend_api 
   - aws_apigateway_api
   - aws_apigatewaymanagementapi_api
   - aws_apigatewayv2_api
   - aws_appconfig_api
+  - aws_appflow_api 
+  - aws_appintegrations_api 
   - aws_appmesh_api
   - aws_appsync_api
+  - aws_auditmanager_api 
+  - aws_AWS242AppRegistry_api 
   - aws_backup_api
   - aws_batch_api
+  - aws_braket_api 
   - aws_chime_api
   - aws_clouddirectory_api
   - aws_cloudsearchdomain_api
   - aws_codeguru_reviewer_api
   - aws_codeguruprofiler_api
   - aws_codestar_notifications_api
+  - aws_codeartifact_api 
   - aws_cognito_sync_api
   - aws_connect_api
   - aws_connectparticipant_api
+  - aws_connect_contact_lens_api 
+  - aws_customer_profiles_api 
   - aws_dataexchange_api
+  - aws_databrew_api
   - aws_detective_api
+  - aws_devops_guru_api 
   - aws_dlm_api
   - aws_ebs_api
   - aws_efs_api
   - aws_eks_api
+  - aws_emr_containers_api 
   - aws_elastic_inference_api
   - aws_elastictranscoder_api
   - aws_es_api
@@ -53,8 +66,11 @@ packages:
   - aws_greengrass_api
   - aws_groundstation_api
   - aws_guardduty_api
+  - aws_honeycode_api 
   - aws_imagebuilder_api
   - aws_iot_data_api
+  - aws_iotdeviceadvisor_api 
+  - aws_iotfleethub_api 
   - aws_iot_jobs_data_api
   - aws_iot1click_devices_api
   - aws_iot1click_projects_api
@@ -62,6 +78,9 @@ packages:
   - aws_iotanalytics_api
   - aws_iotevents_data_api
   - aws_iotevents_api
+  - aws_iotsitewise_api 
+  - aws_iotwireless_api 
+  - aws_ivs_api 
   - aws_kafka_api
   - aws_kinesis_video_archived_media_api
   - aws_kinesis_video_media_api
@@ -70,6 +89,9 @@ packages:
   - aws_lambda_api
   - aws_lex_models_api
   - aws_lex_runtime_api
+  - aws_location_api
+  - aws_lookoutvision_api 
+  - aws_macie2_api 
   - aws_managedblockchain_api
   - aws_marketplace_catalog_api
   - aws_mediaconnect_api
@@ -80,7 +102,9 @@ packages:
   - aws_mediastore_data_api
   - aws_mediatailor_api
   - aws_mobile_api
+  - aws_mobileanalytics_api 
   - aws_mq_api
+  - aws_mwaa_api 
   - aws_networkmanager_api
   - aws_outposts_api
   - aws_personalize_events_api
@@ -97,6 +121,8 @@ packages:
   - aws_robomaker_api
   - aws_sagemaker_a2i_runtime_api
   - aws_sagemaker_runtime_api
+  - aws_sagemaker_edge_api
+  - aws_sagemaker_featurestore_runtime_api
   - aws_savingsplans_api
   - aws_schemas_api
   - aws_securityhub_api
@@ -105,6 +131,9 @@ packages:
   - aws_signer_api
   - aws_sso_oidc_api
   - aws_sso_api
+  - aws_s3outposts_api 
+  - aws_synthetics_api
+  - aws_wellarchitected_api
   - aws_workdocs_api
   - aws_worklink_api
   - aws_workmailmessageflow_api
@@ -149,6 +178,7 @@ packages:
   - aws_dynamodbstreams_api
   - aws_ec2_instance_connect_api
   - aws_ecr_api
+  - aws_ecr_public_api 
   - aws_ecs_api
   - aws_emr_api
   - aws_events_api
@@ -162,6 +192,8 @@ packages:
   - aws_globalaccelerator_api
   - aws_glue_api
   - aws_health_api
+  - aws_healthlake_api 
+  - aws_identitystore_api 
   - aws_inspector_api
   - aws_iotsecuretunneling_api
   - aws_iotthingsgraph_api
@@ -174,7 +206,7 @@ packages:
   - aws_license_manager_api
   - aws_lightsail_api
   - aws_logs_api
-  - aws_machinelearning_api
+  - aws_network_firewall_api 
   - aws_macie_api
   - aws_marketplace_entitlement_api
   - aws_marketplacecommerceanalytics_api
@@ -183,6 +215,7 @@ packages:
   - aws_mgh_api
   - aws_migrationhub_config_api
   - aws_mturk_api
+  - aws_machinelearning_api
   - aws_opsworks_api
   - aws_opsworks_cm_api
   - aws_organizations_api
@@ -190,6 +223,7 @@ packages:
   - aws_pi_api
   - aws_pricing_api
   - aws_qldb_session_api
+  - aws_redshift_data_api 
   - aws_rekognition_api
   - aws_resourcegroupstaggingapi_api
   - aws_route53domains_api
@@ -208,6 +242,8 @@ packages:
   - aws_support_api
   - aws_swf_api
   - aws_textract_api
+  - aws_timestream_query_api 
+  - aws_timestream_write_api
   - aws_transcribe_api
   - aws_transfer_api
   - aws_translate_api

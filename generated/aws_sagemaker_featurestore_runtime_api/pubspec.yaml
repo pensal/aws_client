@@ -1,0 +1,15 @@
+name: aws_sagemaker_featurestore_runtime_api
+description: AWS API client for Amazon SageMaker Feature Store Runtime (generated from SDK API specification).
+version: 1.0.0
+homepage: https://github.com/agilord/aws_client/tree/master/generated/aws_sagemaker_featurestore_runtime_api
+
+
+protocol: rest-json
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  shared_aws_api: ^2.0.0
+
+
